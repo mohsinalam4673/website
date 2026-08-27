@@ -172,7 +172,7 @@ export const TESTIMONIALS = [
     name: "Priya Raghunathan",
     role: "SRE Lead, Northbank Clearing",
     tape: "INCIDENT #4471",
-    tilt: "-1deg",
+    tilt: "-rotate-1",
   },
   {
     quote:
@@ -180,7 +180,7 @@ export const TESTIMONIALS = [
     name: "Tomas Weber",
     role: "Head of Platform, Kilnworks",
     tape: "SHIFT LOG 02",
-    tilt: "1deg",
+    tilt: "rotate-1",
   },
   {
     quote:
@@ -188,7 +188,7 @@ export const TESTIMONIALS = [
     name: "Dana Okonjo",
     role: "Infrastructure Director, Vessel Health",
     tape: "POST-MORTEM",
-    tilt: "-0.5deg",
+    tilt: "-rotate-[0.5deg]",
   },
 ] as const;
 

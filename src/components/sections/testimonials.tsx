@@ -2,6 +2,7 @@ import { Quote } from "lucide-react";
 import { Card } from "@/components/ui/card";
 import { Container, Section, SectionHeading } from "@/components/ui/section";
 import { TESTIMONIALS } from "@/lib/content";
+import { cn } from "@/lib/cn";
 
 export function Testimonials() {
   return (
@@ -19,8 +20,7 @@ export function Testimonials() {
               key={item.name}
               interactive
               screws={false}
-              className="flex flex-col gap-6 pt-12"
-              style={{ transform: `rotate(${item.tilt})` }}
+              className={cn("flex flex-col gap-6 pt-12", item.tilt)}
             >
               {/* Push pin */}
               <span
